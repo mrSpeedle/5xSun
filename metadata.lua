@@ -1,0 +1,28 @@
+return PlaceObj('ModDef', {
+	'title', "5xSun - AutoRefill",
+	'id', "iaTFkGp",
+	'author', "Speedle",
+	'version', 27,
+	'lua_revision', 350453,
+	'saved_with_revision', 396349,
+	'optional_mod', true,
+	'code', {
+		"Code/5xSun_Init.lua",
+		"Code/5xSun_Panels.lua",
+	},
+	'default_options', {
+		FIVESUNlowPercent = 95,
+		SurfaceDepositConcrete = true,
+		SurfaceDepositMetals = true,
+		SurfaceDepositPreciousMetals = true,
+		SurfaceDepositPreciousMinerals = true,
+		SurfaceDepositWater = true,
+	},
+	'saved', 1783103212,
+	'code_hash', -6227790139598654362,
+	'screenshot1', "Mod/iaTFkGp/Screenshots/1.png",
+	'screenshot2', "Mod/iaTFkGp/Screenshots/2.png",
+	'TagGameplay', true,
+	'TagInterface', true,
+	'TagTools', true,
+})
