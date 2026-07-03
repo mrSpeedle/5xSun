@@ -11,7 +11,7 @@ return {
 		'name', "FIVESUNlowPercent",
 		'DisplayName', "Porcentaje de Recarga",
 		'Help', "Define el porcentaje restante del depósito para activar el autorrelleno. (ej: 95 = rellena cuando el depósito cae por debajo del 95%)",
-		'DefaultValue', 95,
+		'DefaultValue', 30,
 		'MinValue', 10,
 	}),
 	PlaceObj('ModItemOptionToggle', {
